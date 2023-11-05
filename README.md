@@ -82,7 +82,7 @@ for (let i = 0; i < cartButtons.length; i++) {
 ### Medhot 3
 ##### ADD BASKET
 - class version
-```
+```js
 class CartManager {
     constructor() {
         this.cartButtons = document.querySelectorAll("[data-cart]");
