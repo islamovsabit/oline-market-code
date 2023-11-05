@@ -3,7 +3,7 @@
 ### Medhot 1
 ##### ADD BASKET
 - for version
-```
+```js
 const cartButtons = document.querySelectorAll("[data-cart]");
 const cartItems = document.querySelectorAll("[data-id]");
 let resultBlock = document.querySelector(".classss");
@@ -41,7 +41,7 @@ for (let i = 0; i < cartButtons.length; i++) {
 ##### ADD BASKET
 - function version
 
-```
+```js
 function addToCart(element) {
     const elementParent = element.parentElement;
     const proInfo = {
